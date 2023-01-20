@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		B125BCCF29791CF7006005B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125BCCE29791CF7006005B4 /* AppDelegate.swift */; };
 		B125BCD129791CF7006005B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125BCD029791CF7006005B4 /* SceneDelegate.swift */; };
-		B125BCD329791CF7006005B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125BCD229791CF7006005B4 /* ViewController.swift */; };
+		B125BCD329791CF7006005B4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125BCD229791CF7006005B4 /* HomeViewController.swift */; };
 		B125BCD629791CF7006005B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B125BCD429791CF7006005B4 /* Main.storyboard */; };
 		B125BCD829791CF9006005B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B125BCD729791CF9006005B4 /* Assets.xcassets */; };
 		B125BCDB29791CF9006005B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B125BCD929791CF9006005B4 /* LaunchScreen.storyboard */; };
+		B1F01F6B29797C8A00681E7D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F01F6A29797C8A00681E7D /* DetailViewController.swift */; };
+		D36B94571588C5D048B3DE80 /* Pods_AshvaSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2873E43510DB5443BA9C0E /* Pods_AshvaSample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A2873E43510DB5443BA9C0E /* Pods_AshvaSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AshvaSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E44B289DCAE9AFA50B440B /* Pods-AshvaSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AshvaSample.debug.xcconfig"; path = "Target Support Files/Pods-AshvaSample/Pods-AshvaSample.debug.xcconfig"; sourceTree = "<group>"; };
 		B125BCCB29791CF7006005B4 /* AshvaSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AshvaSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B125BCCE29791CF7006005B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B125BCD029791CF7006005B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B125BCD229791CF7006005B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B125BCD229791CF7006005B4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B125BCD529791CF7006005B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B125BCD729791CF9006005B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B125BCDA29791CF9006005B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B125BCDC29791CF9006005B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1F01F6A29797C8A00681E7D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B3FB55CBCF7CB239E7CDD464 /* Pods-AshvaSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AshvaSample.release.xcconfig"; path = "Target Support Files/Pods-AshvaSample/Pods-AshvaSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D36B94571588C5D048B3DE80 /* Pods_AshvaSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A94048590D6AFCE4FAADAD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A2873E43510DB5443BA9C0E /* Pods_AshvaSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A456D137EB64EDD2EBF6134A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7E44B289DCAE9AFA50B440B /* Pods-AshvaSample.debug.xcconfig */,
+				B3FB55CBCF7CB239E7CDD464 /* Pods-AshvaSample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B125BCC229791CF7006005B4 = {
 			isa = PBXGroup;
 			children = (
 				B125BCCD29791CF7006005B4 /* AshvaSample */,
 				B125BCCC29791CF7006005B4 /* Products */,
+				A456D137EB64EDD2EBF6134A /* Pods */,
+				1A94048590D6AFCE4FAADAD9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +84,8 @@
 			children = (
 				B125BCCE29791CF7006005B4 /* AppDelegate.swift */,
 				B125BCD029791CF7006005B4 /* SceneDelegate.swift */,
-				B125BCD229791CF7006005B4 /* ViewController.swift */,
+				B125BCD229791CF7006005B4 /* HomeViewController.swift */,
+				B1F01F6A29797C8A00681E7D /* DetailViewController.swift */,
 				B125BCD429791CF7006005B4 /* Main.storyboard */,
 				B125BCD729791CF9006005B4 /* Assets.xcassets */,
 				B125BCD929791CF9006005B4 /* LaunchScreen.storyboard */,
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B125BCDF29791CF9006005B4 /* Build configuration list for PBXNativeTarget "AshvaSample" */;
 			buildPhases = (
+				A7C41BA3C654AB0968A36C92 /* [CP] Check Pods Manifest.lock */,
 				B125BCC729791CF7006005B4 /* Sources */,
 				B125BCC829791CF7006005B4 /* Frameworks */,
 				B125BCC929791CF7006005B4 /* Resources */,
+				559BBB5DC0A7C3EF091A1F93 /* [CP] Embed Pods Frameworks */,
+				304C850CF04C24377BB09FD6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,14 +163,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		304C850CF04C24377BB09FD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AshvaSample/Pods-AshvaSample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AshvaSample/Pods-AshvaSample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AshvaSample/Pods-AshvaSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		559BBB5DC0A7C3EF091A1F93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AshvaSample/Pods-AshvaSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AshvaSample/Pods-AshvaSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AshvaSample/Pods-AshvaSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7C41BA3C654AB0968A36C92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AshvaSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B125BCC729791CF7006005B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B125BCD329791CF7006005B4 /* ViewController.swift in Sources */,
+				B125BCD329791CF7006005B4 /* HomeViewController.swift in Sources */,
 				B125BCCF29791CF7006005B4 /* AppDelegate.swift in Sources */,
 				B125BCD129791CF7006005B4 /* SceneDelegate.swift in Sources */,
+				B1F01F6B29797C8A00681E7D /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +372,7 @@
 		};
 		B125BCE029791CF9006005B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7E44B289DCAE9AFA50B440B /* Pods-AshvaSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +401,7 @@
 		};
 		B125BCE129791CF9006005B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3FB55CBCF7CB239E7CDD464 /* Pods-AshvaSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
